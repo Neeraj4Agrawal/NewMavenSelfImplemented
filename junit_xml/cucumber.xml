@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="38.210796">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="38.210796">
+<failure message="java.lang.NullPointerException&#10;&#9;at Stepdefinitions.LoginSteps.user_enters_username_and_password(LoginSteps.java:44)&#10;&#9;at ✽.Then user enters &quot;neeraj4agarwal@gmail.com&quot; and &quot;Neeraj4@&quot;(/home/cgt_jod_lin_neeraja/workspace/TestMavenProjects/src/test/java/features/login.feature:8)&#10;"><![CDATA[Given Initialize resources in the beginning of each scenario for Login......passed
+Then user enters "neeraj4agarwal@gmail.com" and "Neeraj4@"..................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at Stepdefinitions.LoginSteps.user_enters_username_and_password(LoginSteps.java:44)
+	at ✽.Then user enters "neeraj4agarwal@gmail.com" and "Neeraj4@"(/home/cgt_jod_lin_neeraja/workspace/TestMavenProjects/src/test/java/features/login.feature:8)
+]]></failure>
+</testcase>
+</testsuite>

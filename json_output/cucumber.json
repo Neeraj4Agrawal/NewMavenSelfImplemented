@@ -1,0 +1,61 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38142941402,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Initialize resources in the beginning of each scenario for Login",
+            "match": {
+              "location": "LoginSteps.Initialize_Resources()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67854535,
+              "error_message": "java.lang.NullPointerException\n\tat Stepdefinitions.LoginSteps.user_enters_username_and_password(LoginSteps.java:44)\n\tat ✽.Then user enters \"neeraj4agarwal@gmail.com\" and \"Neeraj4@\"(/home/cgt_jod_lin_neeraja/workspace/TestMavenProjects/src/test/java/features/login.feature:8)\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "user enters \"neeraj4agarwal@gmail.com\" and \"Neeraj4@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "neeraj4agarwal@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Neeraj4@",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "/home/cgt_jod_lin_neeraja/workspace/TestMavenProjects/src/test/java/features/login.feature"
+  }
+]
